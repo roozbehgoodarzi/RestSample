@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SampleController {
     @Autowired
     RunSample runSample;
-//todo : to test git
+
     @RequestMapping("/testSampleEntity")
     public void saveSampleEntirty(@RequestParam(value = "description", required = true) String description){
 
@@ -24,6 +24,7 @@ public class SampleController {
 
         runSample.run(sampleEntity);
         System.out.println("Ends here..");
+        System.out.println("blah..blah..blah");
 
     }
 }
