@@ -20,11 +20,10 @@ public class SampleController {
 
         System.out.println("Started from here..");
         SampleEntity sampleEntity = new SampleEntity();
-        sampleEntity.setDescription("ssss");
+        sampleEntity.setDescription(description);
 
         runSample.run(sampleEntity);
         System.out.println("Ends here..");
-        System.out.println("blah..blah..blah");
 
     }
 }
