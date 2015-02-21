@@ -16,7 +16,7 @@ public class SampleController {
     RunSample runSample;
 
     @RequestMapping("/testSampleEntity")
-    public void saveSampleEntirty(@RequestParam(value = "description", required = true) String description){
+    public void saveSampleEntity(@RequestParam(value = "description", required = true) String description){
 
         System.out.println("Started from here..");
         SampleEntity sampleEntity = new SampleEntity();
